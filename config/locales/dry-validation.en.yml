@@ -89,3 +89,6 @@ en:
 
     # custom predicates
     unique_user_account_email?:  "That email address is being used by another account"
+    unique_name?: List with such name already exists
+    movie_exists?: Movie with such id does not exist
+    list_exists?: List with such id does not exist

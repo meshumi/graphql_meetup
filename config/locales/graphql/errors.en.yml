@@ -6,3 +6,11 @@ en:
         not_authorized: Not authorized
         not_authenticated: Not authenticated
         user_input: Validation error
+        movie:
+          movie_does_not_exist: Movie does not exist
+          already_favorited: Movie already favorited
+          already_added: Movie already added to this list
+          item_not_added: Movie is not added to this list
+          movie_is_not_favorite: Movie is not added to favorite
+          already_at_watchlist: Movie already is at watchlist
+          movie_not_added: Movieis not added to watchlist

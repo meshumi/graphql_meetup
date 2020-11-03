@@ -15,3 +15,42 @@ en:
           args:
             email: User's account email
             password: User's account password
+        remove_favorite_movie_input:
+          desc: Remove favorite movie
+          arg:
+            movie_id: Id of movie
+        add_favorite_movie_input:
+          desc: Add favorite movie
+          arg:
+            movie_id: Id of movie
+        add_watchlist_movie_input:
+          desc: Add watchlist movie
+          arg:
+            movie_id: Id of movie
+        remove_watchlist_movie_input:
+          desc: Remove watchlist movie
+          arg:
+            movie_id: Id of movie
+        create_list_input:
+          desc: Create list
+          arg:
+            name: Name of list
+            description: Description of list
+        add_list_item_input:
+          desc: Add item to list input
+          arg:
+            movie_id: Movie id
+            list_id: List id
+        delete_input:
+          desc: Delete input
+          arg:
+            id: Id of entity to delete
+        remove_list_item_input:
+          desc: Remove item input
+          arg:
+            id: Id of removed movie
+        movie_ordering_input:
+          desc: Remove item input
+          arg:
+            sort: Field to sort
+            direction: ASC or DESC

@@ -25,6 +25,9 @@ en:
         fields:
           email: Email of user account
           user_profile: User account's profile
+          lists: User movie lists
+          favorite_movies: Favorite movies
+          watchlist_movies: Watchlist movies
       user_profile_type:
         desc: User profile
         fields:
@@ -53,8 +56,24 @@ en:
           poster: Movie's poster image
           revenue: Movie's revenue
           runtime: Movie's runtime in seconds
+          is_favorite: Is movie added to favorite
+          is_watchlist: Is movie added to watchlist
       image_type:
         desc: Image type
         fields:
           id: Image id
           filepath: Image file path
+      list_type:
+        desc: List type
+        fields:
+          name: List name
+          description: List description
+          items: Movies added to list
+      deleted_list_type:
+        desc: Deleted List type
+        fields:
+          deleted_list_id: Id of deleted list
+      removed_movie_type:
+        desc: Removed Movie type
+        fields:
+          removed_movie_id: Id of removed movie

@@ -1,0 +1,18 @@
+en:
+  graphql:
+    enums:
+      direction:
+        desc: Sort direction
+        values:
+          asc: Sort in ascending order
+          desc: Sort in descending order
+      movies_sort:
+        desc: Field to sort movies
+        values:
+          title: Title
+          created_at: Created at
+          original_title: Original title
+          budget: Budget
+          runtime: Runtime
+          revenue: Revenue
+          original_language: Original language
